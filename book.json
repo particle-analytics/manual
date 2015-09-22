@@ -8,21 +8,25 @@
   },
   "links": {
     "sidebar": {
-      "Particle Analytics": "http://particle-analytics.com",
-      "Documentation": "index.html"
+      "Particle Analytics website": "http://particle-analytics.com"
     },
     "sharing": {
-      "google": "",
-      "facebook": "",
-      "twitter": "",
-      "weibo": "",
-      "all": ""
+      "google": false,
+      "facebook": false,
+      "twitter": false,
+      "weibo": false,
+      "all": false
     }
   },
-  "plugins": ["mathjax","collapsible-menu"],
+  "plugins": ["mathjax","collapsible-menu","comscore"],
   "pluginsConfig": {
     "mathjax":{
         "forceSVG": true
+    },
+    "fontSettings": {
+        "theme": "white",
+        "family": "serif",
+        "size": 2
     }
   }
 }
