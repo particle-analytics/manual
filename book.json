@@ -3,13 +3,11 @@
   "version": "2.1.x",
   "gitbook": ">=2.0.0",
   "language": "en",
+  "theme": "theme",
   "variables": {
       "host": "mybook.com"
   },
   "links": {
-    "sidebar": {
-      "Particle Analytics website": "http://particle-analytics.com"
-    },
     "sharing": {
       "google": false,
       "facebook": false,
@@ -18,7 +16,7 @@
       "all": false
     }
   },
-  "plugins": ["mathjax","collapsible-menu","comscore"],
+  "plugins": ["mathjax","collapsible-menu"],
   "pluginsConfig": {
     "mathjax":{
         "forceSVG": true
