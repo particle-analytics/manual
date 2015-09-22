@@ -8,11 +8,13 @@
 
 # dependencies for grunt:
 #   sudo npm -g install grunt-cli
-#   sudo npm install grunt --save-dev
-#   sudo npm install grunt-gitbook --save-dev
-#   sudo npm install grunt-gh-pages --save-dev
-#   sudo npm install grunt-contrib-clean --save-dev
+  npm install grunt --save-dev
+  npm install grunt-gitbook --save-dev
+  npm install grunt-gh-pages --save-dev
+  npm install grunt-contrib-clean --save-dev
 
 gitbook init
 gitbook install
-gitbook build
+# gitbook build
+
+grunt publish
