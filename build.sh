@@ -25,6 +25,20 @@ fi
 
 gitbook init
 gitbook install
-# gitbook build
+gitbook build
 
-grunt publish
+# gitbook build -g user/repo
+cd _book
+
+rm -r theme
+rm -r style
+
+git init
+git commit --allow-empty -m 'update book'
+git checkout -b gh-pages
+# touch .nojekyll
+git add .
+git commit -am "update book"
+git push git@github.com:particle-analytics/manual gh-pages --force
+
+# grunt publish

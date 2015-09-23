@@ -1,7 +1,7 @@
 {
-  "title": "Particle Analytics Manual",
+  "title": "Manual",
   "version": "2.1.x",
-  "gitbook": ">=2.0.0",
+  "gitbook": ">=2.4.0",
   "language": "en",
   "theme": "theme",
   "variables": {
